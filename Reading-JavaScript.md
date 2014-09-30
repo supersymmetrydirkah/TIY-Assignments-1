@@ -3,7 +3,7 @@
           offset: 10,
           showLabel: true,
           showGrid: true,
-        },
+        };
 ```
 * Variable: defaultOptions
 * Number =  10
@@ -27,7 +27,7 @@
         labelInterpolationFnc: Chartist.noop,
         labelOverflow: false,
         labelDirection: 'neutral'
-      },
+      };
 ```
 
 * Number = 0, 60
@@ -51,7 +51,7 @@
         // with Z and use 359.99 degrees
         if(endAngle - startAngle === 360) {
           endAngle -= 0.01;
-        }
+        };
 ```
 
 * Variable = endAngle
